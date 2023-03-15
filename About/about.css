@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    font-family: "Nunito";
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.bar1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img_About/banner1.webp);
+    background-size: cover;
+    text-align: center;
+}
+
+.knight_Bite_Logo {
+    position: fixed;
+    top: 25px;
+    left: 80px;
+    height: 60px;
+    width: 120px;
+}
+
+.bar111 {
+    margin-top: 150px;
+    padding-left: 80px;
+    letter-spacing: 2px;
+}
+
+.barmenu {
+    margin: 35px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.barmenu:hover {
+    color: blueviolet;
+}
+
+.bar1text {
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    font-size: 3.8vw;
+    font-family: sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* ---------------------------------------------------------------------- */
+
+.bar2 {
+    margin: 100px 0;
+    row-gap: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    padding: 0 100px;
+    column-gap: 40px;
+    font-family: sans-serif;
+}
+
+.bar22 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-size: 21px;
+    color: #424242;
+    font-family: sans-serif;
+}
+
+.p1 {
+    font-family: sans-serif;
+}
+
+.Locations {
+    color: #424242;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.LocationsSpan {
+    color: #424242;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.FollowUs {
+    color: #424242;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+/* -------------------------------------------------- */
+.copyright {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.copyright2 {
+    background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+    height: 50px;
+    margin-top: 50px;
+}
+
+.copyright3 {
+    margin-top: 10px;
+}
+
+.chat {
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    bottom: 60px;
+    right: 60px;
+}

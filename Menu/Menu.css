@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.bar1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img_Menu/banner1.webp);
+    background-size: cover;
+    text-align: center;
+}
+
+.knight_Bite_Logo {
+    position: fixed;
+    top: 25px;
+    left: 80px;
+    height: 60px;
+    width: 120px;
+}
+
+.barmenu {
+    margin: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.barmenu:hover {
+    color: blueviolet;
+}
+
+/* ------------------------------------------- */
+.content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.content_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.menu {
+    display: grid;
+    padding: 0 200px;
+    row-gap: 50px;
+    column-gap: 50px;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.hItem {
+    color: #fff;
+    font-size: 40px;
+    font-family: nicotineregular;
+    margin: 0 0 15px;
+    font-family: sans-serif;
+}
+
+/* --------------------------------------------------- */
+
+.copyright {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.copyright2 {
+    background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+    height: 50px;
+}
+
+.copyright3 {
+    margin-top: 10px;
+}
+
+.chat {
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    bottom: 60px;
+    right: 60px;
+}

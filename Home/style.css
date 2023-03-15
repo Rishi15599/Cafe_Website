@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    font-family: "Nunito";
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.bar {
+    width: 100%;
+    height: 105vh;
+    background-image: url(./img_Home/backgroundpng.png);
+    background-size: cover;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.knight_Bite_Logo {
+    position: fixed;
+    top: 25px;
+    left: 80px;
+    height: 60px;
+    width: 120px;
+}
+
+.bar1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.bar1>a {
+    margin: 35px;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.barmenu {
+    font-family: sans-serif;
+}
+
+.barmenu:hover {
+    color: blueviolet;
+}
+
+.order_late_night_meals {
+    padding-top: 40vh;
+    font-size: 80px;
+    color: white;
+    margin-top: -100px;
+    text-align: center;
+}
+
+.order_late_night_meals h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+
+.ordernow {
+    margin-top: 50px;
+    background: #FF5672;
+    padding: 10px 20px;
+    width: 195px;
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 9px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.ordernow>a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+.or {
+    color: white;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: sans-serif;
+
+}
+
+.ios_app {
+    width: 203px;
+    height: 68px;
+    background: url(./img_Home/ios-store-logo.svg);
+    background-repeat: no-repeat;
+    transform: scale(1);
+    margin-left: 540px;
+}
+
+
+
+.android_app {
+    width: 182.7px;
+    height: 70px;
+    background: url(./img_Home/google-play-logo.svg);
+    background-repeat: no-repeat;
+    transform: scale(1.2);
+    margin-left: 790px;
+    margin-top: -70px;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+.bar2 {
+    width: 100%;
+    height: 80vh;
+}
+
+.Features {
+    margin-top: 70px;
+    height: fit-content;
+    font-family: sans-serif;
+}
+
+.Features>h1 {
+    color: #424242;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.late_Night_Delivery {
+    display: flex;
+    flex-direction: column;
+}
+
+.late_Night_Delivery>div {
+    margin: 40px 0;
+    color: #424242;
+    font-size: 20px;
+    text-align: center;
+    width: 190px;
+    text-transform: capitalize;
+}
+
+.order_On_App {
+    display: flex;
+    flex-direction: column;
+}
+
+.order_On_App>div {
+    margin: 40px 0;
+    color: #424242;
+    font-size: 20px;
+    text-align: center;
+    width: 190px;
+    text-transform: capitalize;
+}
+
+.delivery_within_40_mins {
+    display: flex;
+    flex-direction: column;
+}
+
+.delivery_within_40_mins>div {
+    margin: 40px 0;
+    color: #424242;
+    font-size: 20px;
+    text-align: center;
+    width: 190px;
+    text-transform: capitalize;
+}
+
+.food_for_every_kind_of_hunger {
+    display: flex;
+    flex-direction: column;
+}
+
+.food_for_every_kind_of_hunger>div {
+    margin: 40px 0;
+    color: #424242;
+    font-size: 20px;
+    text-align: center;
+    width: 190px;
+    text-transform: capitalize;
+}
+
+.place_bulk_orders_through_app {
+    display: flex;
+    flex-direction: column;
+}
+
+.place_bulk_orders_through_app>div {
+    margin: 40px 0;
+    color: #424242;
+    font-size: 20px;
+    text-align: center;
+    width: 190px;
+    text-transform: capitalize;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 100px 50px;
+    font-family: sans-serif;
+}
+
+.features div div {
+    font-family: sans-serif;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+.bar3 {
+    text-align: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: left;
+    background: url(./img_Home/banner-1.webp);
+    background-size: cover;
+    height: 1050px;
+}
+
+.bar3>h3 {
+    color: black;
+    padding-top: 40vh;
+    font-size: 100px;
+    text-transform: uppercase;
+    margin-left: 250px;
+    color: white;
+    margin-top: 200px;
+    font-family: sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bar4 {
+    text-align: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: left;
+    background: url(./img_Home/banner-2.webp);
+    background-size: cover;
+    height: 1050px;
+}
+
+.bar4>h3 {
+    padding-top: 40vh;
+    font-size: 100px;
+    text-transform: uppercase;
+    margin-left: 300px;
+    color: white;
+    margin-top: 200px;
+    font-family: sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* -------------------------------------Footer--------------------------------------- */
+
+.footer>h1 {}
+
+.connectWithUs {
+    margin-bottom: 40px;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.footer-details {
+    display: grid;
+    margin: 40px 50px;
+    grid-template-columns: repeat(2, 1fr) 2fr;
+    justify-content: space-around;
+    align-items: stretch;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    column-gap: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 20px;
+}
+
+.footer-item p {
+    font-family: sans-serif;
+}
+
+.footer-item li {
+    width: fit-content;
+    padding: 10px 5px;
+    list-style-position: inside;
+    cursor: pointer;
+    color: palevioletred;
+}
+
+.footer h3 {
+    margin-bottom: 40px;
+    color: #424242;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.footer-mail,
+.footer-phone {
+    height: 40px;
+    width: 40px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
+.footer-mail {
+    background: url(./mail_icon.svg);
+}
+
+.footer-phone {
+    background: url(./phone_icon.svg);
+}
+
+.email-field {
+    outline: none;
+    margin-top: 40px;
+    width: 400px;
+    height: 8px;
+    padding: 35px 80px 35px 35px;
+    font-size: 24px;
+    border-radius: 50px;
+    background: 0 0;
+    border: 1px solid black;
+    font-family: sans-serif;
+}
+
+.social-media img {
+    transition: all .3s ease-out;
+}
+
+.chatbot {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, violet 0%, rgb(207, 139, 150) 100%);
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.brandLogoFooter {}
+
+.brandLogoFooter1 {
+    height: 40px;
+    width: 80px;
+    margin-left: 680px;
+}
+
+.brandLogoFooter2 {
+    margin-left: 50px;
+}
+
+.copyright {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.copyright2 {
+    background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+    height: 50px;
+    margin-top: 50px;
+}
+
+.copyright3 {
+    margin-top: 10px;
+}
+
+.chat {
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    bottom: 60px;
+    right: 60px;
+}
